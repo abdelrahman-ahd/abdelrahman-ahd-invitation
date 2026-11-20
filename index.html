@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f8f1ef">
+<title>Abdelrahman &amp; Ahd | Wedding Invitation</title>
+<meta name="description" content="You are invited to celebrate the wedding of Abdelrahman &amp; Ahd, 6 December 2026 at 6:00 PM.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Abdelrahman &amp; Ahd | Wedding Invitation">
+<meta property="og:description" content="Join us on 6 December 2026 at 6:00 PM. Tap to open your invitation.">
+<meta property="og:image" content="assets/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='88'%3E♡%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Italianno&family=Cormorant+Garamond:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="scene" id="scene">
+ <div class="envelope-wrap" id="envelopeWrap">
+  <div class="envelope">
+   <div class="letter">
+    <div class="letter-inner">
+     <div class="tiny">You are invited to celebrate</div>
+     <div class="initials">A & A</div>
+     <div class="cover-names">Abdelrahman<br>&<br>Ahd</div>
+     <div class="cover-date">06 · 12 · 2026 &nbsp; | &nbsp; 6:00 PM</div>
+    </div>
+   </div>
+   <div class="flap"></div>
+   <div class="seal">A<span style="font-size:18px">&</span>A</div>
+  </div>
+  <button class="open-button" id="openBtn" aria-label="Open the wedding invitation">♡</button>
+ </div>
+</div>
+<main class="invitation" id="invitation">
+ <section>
+  <div class="ayah">وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا<br>لِّتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً
+   <span class="ayah-ref">Surah Ar-Rum · 21</span>
+  </div>
+  <div class="divider"></div>
+  <div class="ornament">Together with their families</div>
+  <div class="eyebrow">Request the pleasure of your company</div>
+  <h1>Abdelrahman & Ahd</h1>
+  <div class="divider"></div>
+  <div class="eyebrow">With the blessings of their families</div>
+  <div class="family">Abdelwahab<br><span class="amp">&</span><br>Elhosseny</div>
+  <div class="divider"></div>
+  <p class="copy">Somewhere between two lives, two hearts found their way to each other.<br>
+  What began as a beautiful meeting became a love they choose, every day.<br>
+  And now, with grateful hearts, they begin forever — together.<br>
+  Your presence would make their happiest day even more beautiful.</p>
+  <figure class="couple-photo">
+   <img src="assets/couple.jpg" width="933" height="1400" alt="Abdelrahman and Ahd together">
+  </figure>
+  <div class="photo-caption">A moment, a memory, a lifetime together</div>
+  <div class="ornament">♡</div>
+ </section>
+ <section style="background:#fdf8f9">
+  <div class="eyebrow">The celebration</div>
+  <h2>Save the date</h2>
+  <div class="date-large">6 December 2026</div>
+  <div class="time">AT 6:00 IN THE EVENING</div>
+  <div class="divider"></div>
+  <div class="eyebrow">Counting down to forever</div>
+  <div class="countdown" aria-live="polite">
+   <div class="count"><b id="days">---</b><span>Days</span></div>
+   <div class="count"><b id="hours">--</b><span>Hours</span></div>
+   <div class="count"><b id="minutes">--</b><span>Minutes</span></div>
+   <div class="count"><b id="seconds">--</b><span>Seconds</span></div>
+  </div>
+  <a class="action" href="https://maps.app.goo.gl/vwvuAyTFjRwf1Doh6?g_st=iw" target="_blank" rel="noopener">View the location ↗</a>
+ </section>
+ <section>
+  <div class="eyebrow">A song for our day</div>
+  <h2>Alf Leila wa Leila</h2>
+  <p class="music">A melody that makes this night feel like a thousand and one nights.</p>
+  <div class="music-note">♫</div>
+  <audio id="player" src="assets/song.m4a" preload="auto" playsinline></audio>
+  <button class="action" id="musicToggle" type="button" aria-label="Pause or play the wedding song">Pause music ♫</button>
+ </section>
+ <div class="end">With love, Abdelrahman & Ahd ♡</div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
